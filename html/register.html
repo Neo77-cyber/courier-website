@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/register.css" />
+    <title>Register | LoftyHeights Shipments</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">LoftyHeights Shipments</div>
+      <ul class="nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="./about-us.html">About</a></li>
+        <li><a href="./contact-us.html">Contact</a></li>
+        <li><a href="./login.html">Login</a></li>
+      </ul>
+      <div class="hamburger">
+        <div class="hamburger-line"></div>
+        <div class="hamburger-line"></div>
+        <div class="hamburger-line"></div>
+      </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="login-hero">
+      <div class="hero-text">
+        <form id="login-form" action="login.php" method="POST">
+        <p class="hero-light-text">Sign up with us as a member.</p>
+
+          <div class="input-group">
+            <label for="username">Username</label>
+            <input
+              type="text"
+              id="username"
+              name="username"
+              placeholder="Enter your username"
+              required
+            />
+          </div>
+          <div class="input-group">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Enter your password"
+              required
+            />
+            <span class="forgot-password">
+              <a href="#">
+                Forgot your password?
+              </a>
+            </span>
+          </div>
+          <!-- <div class="input-group">
+            <input type="checkbox" id="remember" name="remember" />
+            <label for="remember">Remember me</label>
+          </div> -->
+          <div class="input-group">
+            <button type="submit" id="login-button">Register</button>
+          </div>
+        </form>
+
+        <p class="info-text">
+          <span>Already have an account? </span>
+          <a href="./login.html">Login</a>
+        </p>
+      </div>
+    </section>
+
+  </body>
+</html>

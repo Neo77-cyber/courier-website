@@ -367,7 +367,7 @@ body {
 
 /* cards align on carousel */
 .card-section {
-  position: absolute;
+  /* position: absolute; */
   bottom: -45%;
   padding: 40px;
 }
